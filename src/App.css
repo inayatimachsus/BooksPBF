@@ -36,3 +36,174 @@
     transform: rotate(360deg);
   }
 }
+
+/* Login */
+
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 30vh; */
+}
+
+.card-login {
+  width: 30vw;
+  height: 75vh;
+  background-color: #343434;
+  /* border: 1px solid #B0B5F8; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+.card-login h1 {
+  margin-top: 2.5vh;
+  color: #c2c7d0;
+}
+
+.card-login input {
+  margin-bottom: 2vh;
+  width: 22.5vw;
+  height: 7.5vh;
+  border: 1px solid #c2c7d0;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 1em;
+}
+
+#t-login-1 {
+  margin-left: -20vw;
+  color: #c2c7d0;
+}
+
+#t-login-2 {
+  margin-left: -17.5vw;
+  color: #c2c7d0;
+}
+
+.card-login button {
+  width: 22.5vw;
+  height: 7.5vh;
+  background-color: #c2c7d0;
+  margin-top: -1vh;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5vh;
+  color: #343a40;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#btn-signup {
+  margin: 0;
+  margin-bottom: 5vh;
+  text-decoration: none;
+  color: #c2c7d0;
+}
+
+/* Admin Header */
+
+#btn-logout {
+  background-color: #343a40;
+  padding: 0.5vw;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Data Buku */
+
+#gambar-dataBuku {
+  max-width: 10vw;
+}
+
+/* User Home */
+.content-buku {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* User Keranjang */
+
+.content-keranjang {
+  margin-bottom: 2.5vh;
+}
+
+/* Signup */
+
+.signup {
+  display: flex;
+  flex-direction: row;
+  padding: 3vh 3vw;
+  /* width: fit-content; */
+  height: 70vh;
+}
+
+.column-signup {
+  width: 50%;
+  height: 50vh;
+  /* background-color: #0072de; */
+}
+
+#title-signup-1 {
+  font-size: 3em;
+  color: #343a40;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+}
+
+#title-signup-2 {
+  margin-top: 2.5vh;
+  color:#212121;
+  font-size: 1em;
+  margin-bottom: 5vh;
+}
+
+.form-signup {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh;
+}
+
+.form-signup label {
+  font-size: 0.9em;
+  color: #212121;
+}
+
+.form-signup input {
+  max-width: 20vw;
+  height: 5vh;
+  margin-bottom: 3vh;
+  background-color: #eff1fa;
+  padding-left: 10px;
+  border: 0.75px solid #a2adcc;
+}
+
+.btn-signup-done {
+  width: 5vw;
+  height: 5vh;
+  background-color: #ececec;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#already {
+  margin-top: 5vh;
+}
+
+.btn-login-g {
+  width: 20vw;
+  height: 5vh;
+  background-color: #0072de;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
